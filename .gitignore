@@ -2,3 +2,4 @@ SPNS/*
 tests/*
 .hydra/*
 __pycache__/*
+experiments/*

@@ -1,0 +1,15 @@
+{
+    "os": "Darwin-20.6.0-x86_64-i386-64bit",
+    "python": "3.7.4",
+    "heartbeatAt": "2022-04-11T23:35:14.172877",
+    "startedAt": "2022-04-11T23:35:13.739525",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "host": "Huans-MacBook-Pro-3.local",
+    "username": "huanzhang",
+    "executable": "/opt/anaconda3/bin/python"
+}

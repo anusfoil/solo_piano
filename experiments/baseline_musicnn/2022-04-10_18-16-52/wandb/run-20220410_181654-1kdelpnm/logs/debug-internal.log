@@ -1,0 +1,220 @@
+2022-04-10 18:16:54,355 INFO    StreamThr :50341 [internal.py:wandb_internal():95] W&B internal server running at pid: 50341, started at: 2022-04-10 18:16:54.354681
+2022-04-10 18:16:54,356 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: status
+2022-04-10 18:16:54,357 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: status
+2022-04-10 18:16:54,358 DEBUG   SenderThread:50341 [sender.py:send():235] send: header
+2022-04-10 18:16:54,358 INFO    WriterThread:50341 [datastore.py:open_for_write():77] open: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/run-1kdelpnm.wandb
+2022-04-10 18:16:54,358 DEBUG   SenderThread:50341 [sender.py:send():235] send: run
+2022-04-10 18:16:54,361 DEBUG   SenderThread:50341 [git.py:repo():33] git repository is invalid
+2022-04-10 18:16:54,361 INFO    SenderThread:50341 [sender.py:_maybe_setup_resume():493] checking resume status for None/uncategorized/1kdelpnm
+2022-04-10 18:16:54,781 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: check_version
+2022-04-10 18:16:54,784 INFO    SenderThread:50341 [dir_watcher.py:__init__():169] watching files in: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files
+2022-04-10 18:16:54,784 INFO    SenderThread:50341 [sender.py:_start_run_threads():815] run started: 1kdelpnm with start time 1649611014
+2022-04-10 18:16:54,784 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:16:54,784 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:16:54,784 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: check_version
+2022-04-10 18:16:54,854 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: run_start
+2022-04-10 18:16:54,855 DEBUG   HandlerThread:50341 [meta.py:__init__():37] meta init
+2022-04-10 18:16:54,855 DEBUG   HandlerThread:50341 [meta.py:__init__():51] meta init done
+2022-04-10 18:16:54,855 DEBUG   HandlerThread:50341 [meta.py:probe():211] probe
+2022-04-10 18:16:54,856 DEBUG   HandlerThread:50341 [git.py:repo():33] git repository is invalid
+2022-04-10 18:16:54,856 DEBUG   HandlerThread:50341 [meta.py:_save_pip():55] save pip
+2022-04-10 18:16:54,857 DEBUG   HandlerThread:50341 [meta.py:_save_pip():69] save pip done
+2022-04-10 18:16:54,857 DEBUG   HandlerThread:50341 [meta.py:_save_conda():76] save conda
+2022-04-10 18:16:55,791 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:16:55,791 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/conda-environment.yaml
+2022-04-10 18:16:55,791 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/requirements.txt
+2022-04-10 18:17:00,815 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:02,825 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:04,333 DEBUG   HandlerThread:50341 [meta.py:_save_conda():86] save conda done
+2022-04-10 18:17:04,333 DEBUG   HandlerThread:50341 [meta.py:probe():249] probe done
+2022-04-10 18:17:04,437 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:17:04,437 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:17:04,591 DEBUG   SenderThread:50341 [sender.py:send():235] send: telemetry
+2022-04-10 18:17:04,591 DEBUG   SenderThread:50341 [sender.py:send():235] send: metric
+2022-04-10 18:17:04,592 DEBUG   SenderThread:50341 [sender.py:send():235] send: telemetry
+2022-04-10 18:17:04,592 DEBUG   SenderThread:50341 [sender.py:send():235] send: metric
+2022-04-10 18:17:04,592 WARNING SenderThread:50341 [sender.py:send_metric():905] Seen metric with glob (shouldnt happen)
+2022-04-10 18:17:04,592 DEBUG   SenderThread:50341 [sender.py:send():235] send: files
+2022-04-10 18:17:04,592 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-10 18:17:04,833 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/conda-environment.yaml
+2022-04-10 18:17:04,833 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:04,834 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-metadata.json
+2022-04-10 18:17:05,185 INFO    Thread-16 :50341 [upload_job.py:push():137] Uploaded file /var/folders/41/_6lykj0s4ss209xm9mwxyb8c0000gn/T/tmpj0tgc0j7wandb/1sl5iex1-wandb-metadata.json
+2022-04-10 18:17:06,843 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:08,854 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:10,864 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:12,875 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:14,885 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:16,895 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:18,906 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:19,598 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:17:19,598 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:17:20,916 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:21,840 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:17:21,841 DEBUG   SenderThread:50341 [sender.py:send():235] send: metric
+2022-04-10 18:17:21,841 DEBUG   SenderThread:50341 [sender.py:send():235] send: metric
+2022-04-10 18:17:21,841 DEBUG   SenderThread:50341 [sender.py:send():235] send: metric
+2022-04-10 18:17:21,842 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:17:21,842 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:17:21,842 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:17:21,921 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:17:22,927 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:24,190 DEBUG   SenderThread:50341 [sender.py:send():235] send: stats
+2022-04-10 18:17:24,937 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/config.yaml
+2022-04-10 18:17:24,937 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:26,947 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:27,953 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:29,960 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:31,969 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:33,973 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:34,748 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:17:34,748 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:17:35,979 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:37,988 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:39,998 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:42,007 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:43,191 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:17:43,191 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:17:43,191 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:17:43,191 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:17:44,016 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:44,016 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:17:46,027 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:48,037 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:49,901 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:17:49,901 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:17:50,048 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:52,053 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:54,063 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:55,658 DEBUG   SenderThread:50341 [sender.py:send():235] send: stats
+2022-04-10 18:17:56,073 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:17:58,083 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:00,093 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:02,100 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:04,110 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:04,701 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:18:04,702 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:18:04,702 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:18:04,702 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:18:05,048 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:18:05,049 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:18:05,111 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:18:06,116 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:08,127 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:10,137 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:12,148 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:14,158 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:16,168 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:18,179 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:20,189 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:20,195 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:18:20,195 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:18:22,199 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:24,210 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:26,219 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:26,247 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:18:26,248 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:18:26,248 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:18:26,248 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:18:27,092 DEBUG   SenderThread:50341 [sender.py:send():235] send: stats
+2022-04-10 18:18:27,224 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:18:28,229 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:30,238 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:32,247 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:34,257 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:35,339 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:18:35,339 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:18:36,267 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:38,278 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:40,288 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:42,295 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:44,302 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:46,312 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:47,816 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:18:47,816 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:18:47,816 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:18:47,817 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:18:48,323 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:48,323 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:18:50,333 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:50,480 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:18:50,480 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:18:52,343 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:54,350 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:56,360 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:58,367 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:18:58,506 DEBUG   SenderThread:50341 [sender.py:send():235] send: stats
+2022-04-10 18:19:00,377 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:02,388 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:04,395 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:05,653 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:19:05,653 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:19:06,405 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:08,411 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:10,048 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:19:10,048 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:19:10,048 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:19:10,050 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:19:10,422 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:10,422 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:19:12,429 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:14,439 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:16,448 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:18,455 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:20,465 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:20,802 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:19:20,803 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:19:22,473 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:24,483 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:26,494 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:28,503 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:29,893 DEBUG   SenderThread:50341 [sender.py:send():235] send: stats
+2022-04-10 18:19:30,513 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:32,127 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:19:32,127 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:19:32,127 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:19:32,127 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:19:32,523 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:32,523 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:19:34,534 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:35,962 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:19:35,962 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:19:36,544 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:38,554 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:40,565 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:42,575 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:44,585 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:46,596 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:48,606 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:50,617 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:51,111 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:19:51,111 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:19:52,627 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:53,504 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:19:53,505 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:19:53,505 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:19:53,505 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:19:53,633 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:19:54,638 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:56,648 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:19:58,659 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:00,669 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:01,366 DEBUG   SenderThread:50341 [sender.py:send():235] send: stats
+2022-04-10 18:20:02,679 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:04,690 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:06,263 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-10 18:20:06,263 DEBUG   SenderThread:50341 [sender.py:send_request():249] send_request: stop_status
+2022-04-10 18:20:06,700 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:08,710 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:10,718 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:12,728 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:14,715 DEBUG   HandlerThread:50341 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-10 18:20:14,715 DEBUG   SenderThread:50341 [sender.py:send():235] send: history
+2022-04-10 18:20:14,715 DEBUG   SenderThread:50341 [sender.py:send():235] send: summary
+2022-04-10 18:20:14,716 INFO    SenderThread:50341 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-10 18:20:14,739 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:14,739 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/wandb-summary.json
+2022-04-10 18:20:16,751 INFO    Thread-12 :50341 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_musicnn/2022-04-10_18-16-52/wandb/run-20220410_181654-1kdelpnm/files/output.log
+2022-04-10 18:20:32,620 DEBUG   SenderThread:50341 [sender.py:send():235] send: stats
+2022-04-10 18:20:56,504 INFO    MainThread:50341 [internal.py:handle_exit():82] Internal process exited
+2022-04-10 18:20:56,505 WARNING MsgRouterThr:50341 [router.py:message_loop():73] EOFError seen in message_loop

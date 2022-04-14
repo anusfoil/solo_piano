@@ -1,0 +1,2 @@
+[2022-04-10 18:29:06,709][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /var/folders/41/_6lykj0s4ss209xm9mwxyb8c0000gn/T/tmpk__f5bom
+[2022-04-10 18:29:06,709][torch.distributed.nn.jit.instantiator][INFO] - Writing /var/folders/41/_6lykj0s4ss209xm9mwxyb8c0000gn/T/tmpk__f5bom/_remote_module_non_sriptable.py

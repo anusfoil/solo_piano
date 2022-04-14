@@ -1,0 +1,109 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.13
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: train_loss
+      5: 1
+      6:
+      - 1
+    - 1: train_acc_top1
+      5: 1
+      6:
+      - 1
+    - 1: train_acc_top5
+      5: 1
+      6:
+      - 1
+    - 1: train_acc_mean_pos
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: val_loss
+      5: 1
+      6:
+      - 1
+    - 1: val_acc_top1
+      5: 1
+      6:
+      - 1
+    - 1: val_acc_top5
+      5: 1
+      6:
+      - 1
+    - 1: val_acc_mean_pos
+      5: 1
+      6:
+      - 1
+    python_version: 3.7.4
+    start_time: 1649935780
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      - 41
+      - 50
+      - 53
+      - 55
+      3:
+      - 7
+      - 23
+      4: 3.7.4
+      5: 0.12.13
+      8:
+      - 5
+cfg/dataset/clip_dur:
+  desc: null
+  value: 1
+cfg/dataset/contrastive:
+  desc: null
+  value: true
+cfg/dataset/hop_len:
+  desc: null
+  value: 200
+cfg/dataset/n_mels:
+  desc: null
+  value: 64
+cfg/dataset/sample_rate:
+  desc: null
+  value: 16000
+cfg/dataset/segment_dur:
+  desc: null
+  value: 10
+cfg/dataset/train_ratio:
+  desc: null
+  value: 0.9
+cfg/train/batch_size:
+  desc: null
+  value: 32
+cfg/train/check_monitor:
+  desc: null
+  value: val_acc_top5
+cfg/train/lr:
+  desc: null
+  value: 0.0005
+cfg/train/method:
+  desc: null
+  value: SimCLR
+cfg/train/model_name:
+  desc: null
+  value: na
+hidden_dim:
+  desc: null
+  value: 16
+temperature:
+  desc: null
+  value: 0.07

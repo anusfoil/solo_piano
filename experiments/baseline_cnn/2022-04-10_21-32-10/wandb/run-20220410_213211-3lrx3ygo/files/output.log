@@ -1,0 +1,13 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_cnn/2022-04-10_18-28-59/uncategorized/3nwfn4n6/checkpoints/epoch=462-step=44911.ckpt
+Loaded model weights from checkpoint at /Users/huanzhang/01Acdemics/PhD/Modules/DL4AM/solo_piano_detection/experiments/baseline_cnn/2022-04-10_18-28-59/uncategorized/3nwfn4n6/checkpoints/epoch=462-step=44911.ckpt
+/opt/anaconda3/lib/python3.7/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:245: PossibleUserWarning: The dataloader, test_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 8 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  category=PossibleUserWarning,
+[2022-04-10 21:32:17,066][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /var/folders/41/_6lykj0s4ss209xm9mwxyb8c0000gn/T/tmpf86l7mix
+[2022-04-10 21:32:17,066][torch.distributed.nn.jit.instantiator][INFO] - Writing /var/folders/41/_6lykj0s4ss209xm9mwxyb8c0000gn/T/tmpf86l7mix/_remote_module_non_sriptable.py
+
+
+

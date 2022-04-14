@@ -1,0 +1,12 @@
+dataset:
+  train_ratio: 0.9
+  clip_dur: 1
+  sample_rate: 16000
+  n_mels: 64
+  hop_len: 200
+  segment_dur: 10
+  contrastive: false
+train:
+  model_name: Musicnn
+  batch_size: 32
+  lr: 1.0e-05
